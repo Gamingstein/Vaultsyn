@@ -4,7 +4,7 @@ use rand::rngs::OsRng;
 use serde::{Deserialize, Serialize};
 use x25519_dalek::{PublicKey as X25519Public, StaticSecret};
 
-#[derive(Serialize, Deserialize)]
+#[derive(Clone, Serialize, Deserialize)]
 pub struct Identity {
     pub username: String,
     pub ed25519_public: String,
