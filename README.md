@@ -1,3 +1,12 @@
+<div align="center">
+  <picture>
+    <source media="(min-width: 768px)" srcset="/../main/assets/bot.jpeg">
+    <img src="/../main/assets/bot.jpeg" align="center" style="width: 100%" />
+  </picture>
+</div>
+
+---
+
 # Vaultsyn
 
 **Vaultsyn** is a secure, end-to-end encrypted messaging and identity system written in Rust. It provides cryptographically secure user identities, encrypted messaging, and a simple WebSocket-based relay server for real-time communication.
